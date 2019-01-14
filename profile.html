@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Profile </title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css" />
+	</head>
+	
+<body>
+<center>
+<h1 class="h1">Profile</h1>
+<hr color="brown"/>
+<div id="d1">
+  <img class="mySlides" src="a1.jpg"/>
+  <img class="mySlides" src="a27.jpg"/>
+  <img class="mySlides" src="a2.jpg"/>
+</div>
+<p id="k1">MOHAN KUMAR SAH</br>2nd Year B.Tech Student</br>Computer Science & Engineering</br>Tezpur Central University Assam</br>Contact:radhemohan1001001@gmail.com</p>
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+}
+</script>
+
+</center>
+<hr color="brown">
+<br/>
+<br/>
+</body>
+
+</html>

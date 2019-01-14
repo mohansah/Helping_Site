@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HOME </title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css" />
+	</head>
+<body>
+
+<center>
+<div id="k2">
+<h1 h1 class="h1">www.helpingsite.tk</h1>
+</div>
+<hr color="brown"/>
+</center>
+<br/>
+<a class="t1" href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<center>
+<div id="d1">
+  <img class="mySlides" src="i1.jpg" >
+  <img class="mySlides" src="i2.jpg" >
+  <img class="mySlides" src="i3.jpg" >
+  <img class="mySlides" src="i4.jpg" >
+  <img class="mySlides" src="i5.jpg" >
+  <img class="mySlides" src="i6.jpg" >
+  <img class="mySlides" src="i7.jpg" >
+  <img class="mySlides" src="i8.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000);
+}
+</script>
+
+<div id="d2">
+<p id="t1">WELCOME<br/><br/>Hi,I am Mohan ( <a id="x1" href="profile.html">&nbsp;My Profile&nbsp;</a> ).I am a student,currently studing in the Department of Computer Science And Engineering at Tezpur University.I am not a professional web designer but I have tried to develop my own website.</br><br/>One of the chief motive behind designing this web page is to help others.It would be my pleasure if I could be of any help to other students.I have provided various links on the bottom of the web page and I do believe that this will surely help the students.I am a student from TU so I have given a separate column for TU's Students.</p>
+</div>
+
+<div id="d3">
+<table border="2px" width="95%">
+<tr>
+<th width="22%" class="t10">NCERT Books</th>
+<th width="23%" class="t10">Engineering Books</th>
+<th width="33%" class="t10">TU's Exam Papers</th>
+</tr>
+<tr>
+<th width="22%" class="t11"><a href="chem11.html">Chemistry (Class 11)-Part 1 & 2</a></th>
+<th width="23%" class="t11"><a href="ce.html">CSE & ECE</a></th>
+<th width="33%" class="t11"><a href="1st.html">1st Year (CSE,ECE,ME,EE,CIV & FET)</a></th>
+</tr>
+<tr>
+<th width="22%" class="t11"><a href="chem12.html">Chemistry (Class 12)-Part 1 & 2</a></th>
+<th width="23%" class="t11"><a href="me.html">ME & EE</a></th>
+<th width="33%" class="t11"><a href="2nd.html">2nd Year (CSE,ECE,ME,EE,CIV & FET)</a></th>
+</tr>
+<tr>
+<th width="22%" class="t11"><a href="phy11.html">Physics (Class 11)-Part 1 & 2</a></th>
+<th width="23%" class="t11"><a href="extra.html">CIV & FET</a></th>
+<th width="33%" class="t11"><a href="3rd.html">3rd Year (CSE,ECE,ME,EE,CIV & FET)</a></th>
+</tr>
+<tr>
+<th width="22%" class="t11"><a href="phy12.html">Physics (Class 12)-Part 1 & 2</a></th>
+<th width="23%" class="t11"></th>
+<th width="33%" class="t11"><a href="extra.html">4th Year (CSE,ECE,ME,EE,CIV & FET)</a></th>
+</tr>
+</table>
+</div>
+
+<div id="d4">
+<table width="95%" border="2px">
+<tr>
+<th class="t10">Some Important Links For Online Studies</th>
+<th class="t11"><a href="important.html">Click Here</a></th>
+</tr>
+</table>
+</div>
+
+<div id="d5">
+<table width="95%" border="2px">
+<tr>
+<th class="t10"><form action="https://docs.google.com/forms/d/1_FrRWmCjutoyajHILNMWzTVYgiH3W1hiuADPaOvpPHo/edit">For Comment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="z2" type="submit" value="Click Here"></a></th>
+</form>
+</tr>
+</table>
+</div>
+</center>
+
+<hr color="brown">
+<br/>
+<br/>
+</body>
+
+</html>
